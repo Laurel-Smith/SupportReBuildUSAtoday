@@ -1,0 +1,146 @@
+body {
+  /*background-color: #;*/
+}
+
+.container {
+  margin-top: 100px;
+  width: 400px;
+}
+
+/*Hide all except first fieldset*/
+#donation-form fieldset:not(:first-of-type) {
+	display: none;
+}
+
+.donation-container {
+  -moz-box-shadow: 0 0 3px #ccc;
+  -webkit-box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 3px #ccc;
+  background-color: #FFFFFF;
+  height:auto;
+  margin-bottom: 30px;
+  padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.donation-container .form-group {
+  margin-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.donation-container .title {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.prog {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: auto;
+  text-align: center;
+}
+
+.bar {
+  height: 20px;
+  display: inline-block;
+  width:20%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #DCDCDC;
+}
+
+.active {
+  background-color: #12A8E0;
+  height: 20px;
+  display: inline-block;
+  width:20%;
+  border-style: none;
+  cursor: pointer;
+}
+
+.donation-container .next-container {
+  text-align: center;
+  margin-left: 2.6%;
+  margin-right: 2.6%;
+  margin-top: 4%;
+  margin-bottom: 1%;
+
+}
+
+.btn-number{
+  margin-left: 2.6%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 30%;
+  background-color: #12A8E0;
+  padding: 18px 28px;
+  font-size: 22px;
+  line-height: normal;
+  color: white;
+  border-color: #0c7399;
+}
+
+.btn-number:hover {
+  color: white;
+  border-color: white;
+}
+
+.selected {
+  background-color: #0050A0;
+  border-color: white;
+}
+
+.btn-next {
+  width: 100%;
+  background-color: #E51D2E;
+  color: white;
+}
+
+
+.btn-submit {
+  width: 100%;
+  background-color: #E51D2E;
+  color: white;
+}
+
+.donation-container .set-amount {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 19px 28px;
+  margin-left: 2.6%;
+  width: 62.5%;
+  display: inline-block;
+  font-style: italic;
+  border-radius: 4px;
+  background-color: #F3F3F3;
+}
+
+.donation-container .text-form {
+  margin-left: 2.6%;
+  margin-top: 20px;
+}
+
+.donation-container .text-form .text-input{
+  width: 96%;;
+  border-radius: 4px;
+  background-color: #F3F3F3;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.donation-container .text-form .text-input-1-2{
+  width: 100%;;
+  border-radius: 4px;
+  background-color: #F3F3F3;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.donation-container .text-form .text-1-2{
+  display: inline-block;
+}
