@@ -1,3 +1,3 @@
 # SupportReBuildUSAtoday
 
-https://laurel-smith.github.io/SupportReBuildUSAtoday/.
+https://laurel-smith.github.io/SupportReBuildUSAtoday
