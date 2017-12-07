@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Mobile devices (up to 730px) */
+@media (max-width: 730px) { 
+	.col-md-4, .col-md-6, .col-md-8 { margin-bottom: 15px; }
+	#wrapper { width: 100% !important; }
+	#custom { width: 100% !important; }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	.col-md-4, .col-md-6, .col-md-8 { margin-bottom: 15px; }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { .col-md-4, .col-md-6, .col-md-8 { margin-bottom: 15px; } }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { .col-md-4, .col-md-6, .col-md-8 { margin-bottom: 0px; } }
+
+
+body {
+	font-family:Arial;
+	background-color:#dddddd !important;
+}
+
+#wrapper {
+	width:700px;
+	margin:auto;
+	padding:25px;
+	background-color:#ffffff;
+}
+
+input[type="radio" i] {
+	opacity:0.01;
+    z-index:100;
+}
+
+input:not([type]), input[type="email" i], input[type="number" i], input[type="password" i], input[type="tel" i], input[type="url" i], input[type="text" i] {
+	color:#000000;
+	font-size:18px;
+	width:100%;
+}
+
+input:not([type]), input[type="email" i], input[type="number" i], input[type="password" i], input[type="tel" i], input[type="url" i], input[type="text" i]:focus {
+  	outline: 0;
+  -webkit-box-shadow: 0px;
+  box-shadow: 0px;
+}
+
+.heading {
+	background-color:#eeeeee;
+	padding:10px 0px 10px 10px;
+}
+
+#preset {
+	width:100%;
+	margin:20px 0px 20px 0px;
+	list-style-type:none;
+	padding:0px;
+	text-align:center;
+}
+
+#preset div {
+	background-color:#1e4d79;
+	color:#ffffff;
+	height:50px;
+	position:relative;
+	border:1px solid #ffffff;
+}
+
+#preset input[type="radio"]:checked + label,
+.Checked + label {
+    background:#f06d1c;
+}
+
+#custom input[type="radio"]:checked + label,
+.Checked + label {
+    background:#f06d1c;
+}
+
+#preset label:hover {
+     cursor: pointer;
+}
+
+#preset a:hover {
+     cursor: pointer;
+}
+
+#preset label {
+	font-size:16px;
+    padding-top:15px;
+	display: block;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	margin:0;
+}
+
+#custom input[type="text" i] {
+	height:50px;
+	padding-left:40px;
+}
+
+#custom-symbol {
+    background-color:#1e4d79;
+	color: #FFFFFF;
+	position:absolute;
+	padding:13px 10px 13px 10px;
+	font-size:18px;
+}
+
+#custom {
+	width:50%;
+	list-style-type:none;
+	padding:0px;
+	position:relative;
+	overflow: hidden;
+}
+
+#preset input {
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+#donor-info {
+	margin-top:20px;
+}
+
+select {
+	width:100%;
+}
